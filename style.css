@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    background-color: blueviolet;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 600px;
+    margin: 80px;
+    box-shadow: 0px 10px 15px rgb(76, 76, 76);
+    padding-top: 30px;
+}
+
+.container p {
+    color: rgb(2, 43, 2);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.text {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 70px;
+}
+
+.text button {
+    background-color: rgba(0, 0, 0, 0.152);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+.btn button {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.inner-container {
+    background-color: rgb(255, 255, 255);
+}
+
+.Port {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 108px;
+}
+
+.Port button {
+    background-color: rgb(197, 197, 197);
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    color: white;
+}
+
+.Koralina img {
+    border-radius: 100%;
+    box-shadow: 0px 5px 15px rgb(151, 151, 151);
+}
+
+.Info {
+    margin-left: 70px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-top: 20px;
+    gap: 10px;
+}
